@@ -6,7 +6,7 @@ Imagine pressing the right button and having it redirected to all the open Image
 
  - Python Keyboard Library
  - Root User Permission
- - Xdotool
+ - Xdotool (And thus Linux)
 
 # Usage
 sudo python keyherald
