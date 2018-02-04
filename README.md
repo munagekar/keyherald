@@ -10,3 +10,6 @@ Imagine pressing the right button and having it redirected to all the open Image
 
 # Usage
 sudo python keyherald
+
+# Future Work
+Recently discovered that this doesn't work the vnc viewers. Would be adding a fix for the same.
