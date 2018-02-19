@@ -13,3 +13,4 @@ sudo python keyherald
 
 # Future Work
 Recently discovered that this doesn't work the vnc viewers. Would be adding a fix for the same.
+vncdotool seems to do the job. Would be adding it with argparse .
