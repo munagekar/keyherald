@@ -14,6 +14,8 @@ print "Script Launched"
 # Detect the multiple vlc windows open
 iv_wins = commands.getstatusoutput(
     'xdotool search --title ".mp4"')[1].split('\n')[1:]
+iv_wins.extend(commands.getstatusoutput(
+    'xdotool search --title ".avi"')[1].split('\n')[1:])
 
 
 def send_keypress(key):
